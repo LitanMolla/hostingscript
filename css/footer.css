@@ -163,6 +163,14 @@ footer {
         display: block;
         margin: 0 auto;
     }
+    .vps_head{
+        display: none;
+    }
+    .vps_mhead{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -200,6 +208,14 @@ footer {
     .scale_hosting img {
         display: block;
         margin: 0 auto;
+    }
+    .vps_head{
+        display: none;
+    }
+    .vps_mhead{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
     }
 }
 

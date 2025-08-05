@@ -251,6 +251,7 @@ img {
     width: 100%;
     overflow: hidden;
     border-collapse: collapse;
+    background: #f0f8ff;
 }
 
 .vps_head thead th {
@@ -258,14 +259,14 @@ img {
     color: #fff;
     padding: 20px;
     text-align: left;
-    border: 1px solid gray;
+    border: 1px solid #dadada;
     white-space: nowrap;
 }
 
 .vps_head tbody td {
     padding: 20px;
     text-align: left;
-    border: 1px solid gray;
+    border: 1px solid #dadada;
     white-space: nowrap;
 }
 
@@ -285,4 +286,85 @@ img {
     overflow: auto;
 }
 
+.vps_head span {
+    background: #518cf3;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
 /* VPS */
+
+/* VPS Mobile */
+
+.vps_mitem {
+    background: #f0f8ff;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.vps_mitem:hover {
+    transform: scale(1.05);
+}
+
+.vps_mitem h4 {
+    text-align: center;
+    background: #012f7f;
+    color: white;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.subItem {
+    display: flex;
+    border-bottom: 1px solid #959595;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+.subItem h5 {
+    flex: 1;
+    color: #012f7f;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.subItem p {
+    flex: 1;
+}
+
+.vps_mitem h3 {
+    text-align: center;
+    color: #012f7f;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.vps_mitem a {
+    background: #012f7f;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.vps_mitem .btn {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.vps_mitem a:hover {
+    background: #2675ff;
+}
+
+.vps_mhead {
+    display: none;
+}
+
+/* VPS Mobile */

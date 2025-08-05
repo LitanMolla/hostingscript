@@ -157,6 +157,7 @@ p {
 }
 
 @media (min-width: 1200px) {
+
     .container,
     .container-lg,
     .container-md,
@@ -310,8 +311,8 @@ textarea {
 ------------------------------------------------------------------- */
 
 .logo.mainlogo img {
-     width: 200px; 
-     height: 50px;
+    width: 200px;
+    height: 50px;
 }
 
 .main-header.without_banner {
@@ -381,7 +382,7 @@ textarea {
     color: rgb(var(--color-primary));
 }
 
-.top-bar-dropdowns .top-bar-dropdown + .top-bar-dropdown {
+.top-bar-dropdowns .top-bar-dropdown+.top-bar-dropdown {
     margin-inline-start: 5px;
 }
 
@@ -642,11 +643,11 @@ textarea {
         margin: 0;
     }
 
-    .popup-mobile-menu .mainmenu li + li {
+    .popup-mobile-menu .mainmenu li+li {
         border-top: 1px solid #f0f0f0;
     }
 
-    .popup-mobile-menu .mainmenu .has-droupdown > a {
+    .popup-mobile-menu .mainmenu .has-droupdown>a {
         position: relative;
     }
 
@@ -1073,7 +1074,7 @@ textarea {
 }
 
 .pricing-section .section-header {
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 767px) {
@@ -1104,7 +1105,7 @@ textarea {
     transform: scale(1.01) translate(0, -7px);
 }
 
-.plan-info > img {
+.plan-info>img {
     width: 25% !important;
     height: auto;
     opacity: 0.3;
@@ -1623,11 +1624,11 @@ textarea {
     border-radius: 10px;
 }
 
-.faq-items .accordion li + li {
+.faq-items .accordion li+li {
     margin-top: 15px;
 }
 
-.faq-items .accordion li > a {
+.faq-items .accordion li>a {
     font-size: 18px;
     font-weight: 500;
     color: #393939;
@@ -1641,18 +1642,18 @@ textarea {
 }
 
 @media (max-width: 767px) {
-    .faq-items .accordion li > a {
+    .faq-items .accordion li>a {
         font-size: 17px;
     }
 }
 
-.faq-items .accordion li > a > span {
+.faq-items .accordion li>a>span {
     display: contents;
 }
 
-.faq-items .accordion li.active > a,
-.faq-items .accordion li.active > a:hover,
-.faq-items .accordion li.active > a:focus {
+.faq-items .accordion li.active>a,
+.faq-items .accordion li.active>a:hover,
+.faq-items .accordion li.active>a:focus {
     color: rgb(var(--color-primary));
     background: #fff;
     border-radius: 10px;
@@ -1660,7 +1661,7 @@ textarea {
     transition: all 0.3s;
 }
 
-.faq-items .accordion li > a::after {
+.faq-items .accordion li>a::after {
     content: "+";
     width: 30px;
     height: 30px;
@@ -1675,7 +1676,7 @@ textarea {
     border-radius: 5px;
 }
 
-.faq-items .accordion li.active > a:after {
+.faq-items .accordion li.active>a:after {
     content: "-";
     /* font-size: 22px; */
     background: rgb(var(--color-primary));
@@ -1925,6 +1926,7 @@ textarea {
     background: url(../images/serverroom.png);
     background-position: center center;
 }
+
 .baner-dmn-search-form {
     display: block;
     position: relative;
@@ -2598,7 +2600,7 @@ textarea {
     text-align: center;
 }
 
-.pricing-style-two .list-body ul li + li {
+.pricing-style-two .list-body ul li+li {
     margin-top: 10px;
 }
 
@@ -3077,6 +3079,7 @@ textarea {
     position: relative;
     margin-bottom: 16px;
 }
+
 .user-form-body .theme-forms .inner label.icons i {
     position: relative;
     font-size: 14px;

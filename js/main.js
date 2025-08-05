@@ -244,3 +244,19 @@ document.getElementById('usd').classList.add('active');
 document.getElementById('monthly').classList.add('active');
 updatePrices();
 
+
+// for cupon
+let cupon = document.getElementById('cupon');
+
+function copyToClipboard(element) {
+  const text = element.innerText;
+  navigator.clipboard.writeText(text)
+    .then(() => {
+      alert("Copy Done " + text);
+    })
+    .catch(err => {
+      console.error("No copy", err);
+    });
+}
+
+// cupon.addEventListener('click', copyToClipboard())
