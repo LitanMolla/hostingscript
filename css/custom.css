@@ -1,0 +1,288 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be defined here.
+
+***************************************************** */
+/* We Provide Hosting for Every Solution */
+.services-design-one {
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    display: block;
+    width: 100%;
+    transition: all 0.3s;
+    min-height: 210px;
+}
+
+.services-design-one .img {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.services-design-one h3 {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3e3e3e;
+}
+
+.services-design-one p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0px;
+    color: #333333;
+}
+
+.services-design-one .img img {
+    max-height: 60px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.sls {
+    margin: 40px 0;
+}
+
+/* We Provide Hosting for Every Solution */
+
+/* hich Type of Hosting is Right for You? */
+.section-bg1 {
+    background: #f3f8f2;
+    padding: 60px 0;
+    margin: 60px 0;
+}
+
+.sb1 {
+    margin-bottom: 40px;
+}
+
+.plan-homepage {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #dddbdb;
+    display: block;
+    width: 100%;
+    transition: all 0.3s;
+    background: #fff;
+    position: relative;
+}
+
+.plan-homepage h3 {
+    font-size: 23px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #3e3e3e;
+}
+
+.plan-homepage p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.plan-homepage h4 {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #128413;
+    margin-bottom: 10px;
+}
+
+.plan-homepage h4 .durection {
+    font-size: 22px;
+}
+
+.plan-homepage h5 {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #959595;
+}
+
+.theme-btn.one {
+    background: #128413;
+    color: #fff;
+}
+
+.plan-homepage a {
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+.theme-btn {
+    width: fit-content;
+    font-size: 16px;
+    display: block;
+    border-radius: 5px;
+    transition: all 0.3s;
+    border: 0;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* hich Type of Hosting is Right for You? */
+
+/* Pricing */
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.currency h3 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #012f7f;
+}
+
+.btn_container {
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #012f7f;
+}
+
+.currency_yera_container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+/* Active */
+.btn_container button.active,
+.btn_container button:hover {
+    padding: 10px 24px;
+    background: #012f7f;
+    font-size: 16px;
+    color: white;
+    border: 1px solid #012f7f;
+    border-radius: 8px;
+    transition: .5s;
+}
+
+/* Inactive Hover */
+.btn_container button {
+    color: #012f7f;
+    background: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #012f7f;
+    padding: 10px 24px;
+}
+
+/* price card */
+.pricing-style-two li {
+    text-align: left !important;
+}
+
+.pricing-style-two i {
+    color: #012f7f;
+    margin-right: 10px;
+}
+
+.submenu li a {
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+.faq-items li {
+    border-left: 4px solid #012f7f;
+}
+
+.pay img {
+    width: 450px;
+}
+
+.plan-homepage a {
+    background: #012f7f !important;
+}
+
+.plan-homepage h4 {
+    color: #012f7f !important;
+}
+
+.scale_hosting {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.scale_hosting h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #012f7f;
+    margin: 16px 0;
+}
+
+.scale_head h2 {
+    font-size: 35px;
+    color: #ff944d;
+    font-weight: bold;
+}
+
+.scale_head p {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#scale {
+    background: #f0f8ff;
+    padding: 60px 0;
+}
+
+/* VPS */
+.vps_head table {
+    width: 100%;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+.vps_head thead th {
+    background: #012f7f;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid gray;
+    white-space: nowrap;
+}
+
+.vps_head tbody td {
+    padding: 20px;
+    text-align: left;
+    border: 1px solid gray;
+    white-space: nowrap;
+}
+
+.vps_head tbody td:first-child {
+    font-weight: 600;
+}
+
+.vps_head tbody td a {
+    background: #012f7f;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+    white-space: nowrap;
+}
+
+.vps_head {
+    overflow: auto;
+}
+
+/* VPS */
